@@ -1,0 +1,15 @@
+{
+  "name": "uberflip",
+  "version": "0.0.0",
+  "description": "twilio uberflip landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Whinnery",
+  "license": "MIT",
+  "dependencies": {
+    "twilio": "^1.7.0",
+    "gopher": "^0.1.1"
+  }
+}
