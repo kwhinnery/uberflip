@@ -6,7 +6,7 @@ app.post('/send', function(request, response) {
     client.sendMessage({
         to: phone,
         from: '+16129991519',
-        body: 'Thanks for visiting us at JavaOne! Learn more about Twilio: http://bit.ly/twilio_java_one'
+        body: 'Thanks for visiting our booth today! Learn more about Twilio: http://bit.ly/learn_about_twilio'
     }, function(err, message) {
         if (err) {
             response.send(500, err);
