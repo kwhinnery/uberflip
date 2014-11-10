@@ -1,0 +1,27 @@
+{
+  "name": "Uberflip Marketing App",
+  "description": "Set up an Uberflip marketing landing page for an event",
+  "keywords": [],
+  "website": "https://github.com/kwhinnery/uberflip",
+  "repository": "https://github.com/kwhinnery/uberflip",
+  "logo": "https://s3-us-west-2.amazonaws.com/deved/twilio-logo.png",
+  "success_url": "/index.html",
+  "env": {
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Your Twilio account secret ID, you can find at: https://www.twilio.com/user/account",
+      "value": "enter_your_account_sid_here"
+    },
+    "TWILIO_AUTH_TOKEN": {
+      "description": "Your secret Twilio Auth token, you can find at: https://www.twilio.com/user/account",
+      "value": "enter_your_auth_token_here"
+    },
+    "TWILIO_NUMBER": {
+      "description": "The Twilio phone number you are using for this app. You can get one here: https://www.twilio.com/user/account/phone-numbers/incoming",
+      "value": "+15005550006"
+    },
+    "TEXT_MESSAGE": {
+      "description": "The text of the message you want the app to send",
+      "value": "Thanks for visiting our Twilio today! Learn more about us: http://bit.ly/learn_about_twilio"
+    }
+  }
+}
